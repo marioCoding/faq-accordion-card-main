@@ -1,0 +1,58 @@
+/* style for FAQ-Accordion */
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(273, 75%, 66%);
+}
+.heroImageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroImg {
+    margin-bottom: -12em;
+    width: 40em;
+    padding-top: 3em;
+}
+.wrapper {
+    background-color: #fff;
+    border-radius: 3em;
+    padding: 15em 5em 5em 5em;
+}
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+.h2Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    text-align: center;
+    padding-right: 1em;
+}
+#button1, #button2, #button3, #button4, #button5 {
+    border-style: none;
+    background-color: #fff;
+}
+button:hover {
+    cursor: pointer;
+}
+p {
+    text-align: center;
+}
+.accordionWrapper {
+    border-style: solid;
+    border-color: hsl(237, 12%, 33%);
+    border-top: hsl(237, 12%, 33%);
+    border-left: hsl(237, 12%, 33%);
+    border-right: hsl(237, 12%, 33%);
+}
+#accordion1, #accordion2, #accordion3, #accordion4, #accordion5 {
+    display: none;
+}
+.attribution { 
+    font-size: 11px; text-align: center; }
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
