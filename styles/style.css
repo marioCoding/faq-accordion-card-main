@@ -23,7 +23,7 @@ h1 {
     text-align: center;
     font-size: xx-large;
 }
-.h2Wrapper {
+#h2Wrapper1, #h2Wrapper2, #h2Wrapper3, #h2Wrapper4, #h2Wrapper5 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,3 +56,41 @@ p {
     font-size: 11px; text-align: center; }
 .attribution a { 
     color: hsl(228, 45%, 44%); }
+
+/* desktop styling */
+@media (min-width: 720px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heroImageWrapper {
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15em;
+    }
+    .wrapper {
+        padding-top: 10em;
+        padding-left: 25em;
+        margin-left: -20em;
+        z-index: 0;
+        text-align: right;
+    }
+    .textWrapper {
+        align-items: right;
+        width: 35em;
+    }
+    .attribution {
+        display: block;
+    }
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    button {
+        align-items: right;
+    }
+}

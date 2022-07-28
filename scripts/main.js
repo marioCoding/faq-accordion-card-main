@@ -8,37 +8,56 @@ let button2 = document.getElementById('button2');
 let button3 = document.getElementById('button3');
 let button4 = document.getElementById('button4');
 let button5 = document.getElementById('button5');
+let title1 = document.getElementById('h2Wrapper1');
+let title2 = document.getElementById('h2Wrapper2');
+let title3 = document.getElementById('h2Wrapper3');
+let title4 = document.getElementById('h2Wrapper4');
+let title5 = document.getElementById('h2Wrapper5');
 
 // This function changes the visibility of the answer block
 let displayAnswerBlock1 = function() {
-    if(answerBlock1.style.display === 'none')
+    if(answerBlock1.style.display === 'block') {
+        answerBlock1.style.display = 'none';
+        title1.style.fontStyle = 'normal';
+    } else {
         answerBlock1.style.display = 'block';
-    else
-        answerBlock1.style.display = 'none'
+        title1.style.fontStyle = 'italic';
+    }
 }
 let displayAnswerBlock2 = function() {
-    if(answerBlock2.style.display === 'none')
-        answerBlock2.style.display = 'block';
-    else
-        answerBlock2.style.display = 'none'
+    if(answerBlock2.style.display === 'block') {
+        answerBlock2.style.display = 'none';
+        title2.style.fontStyle = 'normal';
+    } else {
+        answerBlock2.style.display = 'block'
+        title2.style.fontStyle = 'italic';
+    }
 }
 let displayAnswerBlock3 = function() {
-    if(answerBlock3.style.display === 'none')
+    if(answerBlock3.style.display === 'block') {
+        answerBlock3.style.display = 'none';
+        title3.style.fontStyle = 'normal';
+    } else
         answerBlock3.style.display = 'block';
-    else
-        answerBlock3.style.display = 'none'
+        title3.style.fontStyle = 'italic';
 }
 let displayAnswerBlock4 = function() {
-    if(answerBlock4.style.display === 'none')
+    if(answerBlock4.style.display === 'block') {
+        answerBlock4.style.display = 'none';
+        title4.style.fontStyle = 'normal';
+    } else {
         answerBlock4.style.display = 'block';
-    else
-        answerBlock4.style.display = 'none'
+        title4.style.fontStyle = 'italic';
+    }
 }
 let displayAnswerBlock5 = function() {
-    if(answerBlock5.style.display === 'none')
+    if(answerBlock5.style.display === 'block') {
+        answerBlock5.style.display = 'none';
+        title5.style.fontStyle = 'normal';
+    } else {
         answerBlock5.style.display = 'block';
-    else
-        answerBlock5.style.display = 'none'
+        title5.style.fontStyle = 'italic';
+    }
 }
 
 button1.onclick = displayAnswerBlock1;
